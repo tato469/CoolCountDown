@@ -43,12 +43,12 @@ public class CounterFragment extends Fragment {
 	 public void dangerAnimation()
 	 {
 		 animation = new ScaleAnimation(1, 
- 										2, 
- 										1, 
- 										2, 
- 										Animation.RELATIVE_TO_SELF, 
- 										(float)0.5, Animation.RELATIVE_TO_SELF, 
- 										(float)0.5);
+ 						2, 
+ 						1, 
+ 						2, 
+ 						Animation.RELATIVE_TO_SELF, 
+ 						(float)0.5, Animation.RELATIVE_TO_SELF, 
+ 						(float)0.5);
 		 animation.setDuration(1000);
 
 		 animation.setRepeatMode(Animation.RESTART);
